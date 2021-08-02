@@ -1,0 +1,14 @@
+[package]
+name = "long-version"
+version = "0.0.1"
+authors = ["Alexander Lopatin <github.com/alopatindev>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Minimalistic version parsing and comparison. Supports non-semver versions, ignores postfixes like alpha/rc/etc."
+repository = "https://github.com/alopatindev/long-version"
+keywords = ["version", "parser"]
+readme = "README.md"
+
+[dependencies]
+anyhow = "1"
+smallvec = "1"
